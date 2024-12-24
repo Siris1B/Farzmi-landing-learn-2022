@@ -1,0 +1,42 @@
+.about {
+    padding-top: 215px;
+    &__container {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 557px 464px;
+        column-gap: 119px;
+    }
+    &__title {
+        margin-right: 143px;
+    }
+    &__img {
+        height: 872px;
+        width: 557px;
+    }
+    &__text {
+        font-size: 16px;
+        font-weight: 400px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 26px;
+        color: #777777;
+        margin-top: 26px;
+    }
+    &__quote {
+        font-size: 22px;
+        line-height: 30px;
+        font-weight: 400;
+        color: $main;
+        margin-top: 17px;
+    }
+    &__item{
+        &:nth-child(2){
+            margin-top: 36px;
+        }
+        &:first-child{
+            margin-top: 69px;
+        }
+    }
+    &__btn {
+        margin-top: 94px;
+    }
+}

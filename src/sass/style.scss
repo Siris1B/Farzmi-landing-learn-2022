@@ -1,0 +1,79 @@
+@import 'libs/bootstrap-reboot.min';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    //font-family: 'Roboto', sans-serif;
+}
+ul {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    &_header {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+}
+
+
+@import 'blocks/header';
+@import 'blocks/divider';
+@import 'blocks/buttons';
+@import 'blocks/promo';
+@import 'blocks/about';
+@import 'blocks/title';
+@import 'blocks/services';
+@import 'blocks/call';
+@import 'blocks/teem';
+@import 'blocks/intro';
+@import 'blocks/numbers';
+@import 'blocks/slider';
+@import 'blocks/happy';
+@import 'blocks/news';
+@import 'blocks/mark';
+@import 'blocks/footer';
+
+
+
+@import 'media/media';
+
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 90px;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.dot {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 6px;
+    margin-right: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}

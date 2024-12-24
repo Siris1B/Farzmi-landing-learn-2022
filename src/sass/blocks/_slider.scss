@@ -1,0 +1,43 @@
+.slider {
+    padding-top: 100px;
+    &__btn {
+        padding: 20px 26px;
+        border-color: #A4D6CF;
+        background-color: #fff;
+    }
+    &__btns {
+        padding-top: 20px;
+        display: flex;
+        width: 210px;
+        justify-content: space-between;
+    }
+    &__btn {
+        border: 2px solid #A4D6CF;
+    }
+    &__item {
+        position: relative;
+    }
+    &__descr {
+        background-color: $main;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 266px;
+    }
+    &__name {
+        font-size: 22px;
+        color: #fff;
+    }
+    &__title {
+        padding-top: 20px;
+        font-size: 15px;
+        color: #A4D6CF;
+    }
+    &__title:nth-child(1) {
+        padding-top: 0;
+    }
+    
+    &__wrapper {
+        padding: 60px 50px;
+    }
+}

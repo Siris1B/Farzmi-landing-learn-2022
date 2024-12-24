@@ -1,0 +1,28 @@
+.divider {
+    position: relative;
+    color: $second;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    left: 50px;
+    &::before {
+        content: "";
+        position: absolute;
+        border-bottom: 1px solid $second;
+        width: 40px;
+        top: 50%;
+        left: -50px;
+    }
+    &_up {
+        margin-bottom: 19px;
+    }
+    &_down {
+        margin-top: 19px;
+    }
+    &_gray {
+        color: #777777;
+        &::before {
+            border-bottom: 1px solid #777777;
+        }
+    }
+}

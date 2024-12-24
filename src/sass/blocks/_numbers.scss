@@ -1,0 +1,23 @@
+.numbers {
+    padding-top: 100px;
+    &__items {
+        background-color: #E1F4F2;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 230px;
+    }
+    &__count {
+        font-family: 'Roboto', sans-serif;
+        color: $main;
+        font-size: 45px;
+        padding: 15px 86px 0 86px;
+    }
+    &__text::before {
+        left: -35px;
+        width: 28px;
+    }
+    &__divider {
+        transform: translateX(15%);
+    }
+}

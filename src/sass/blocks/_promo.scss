@@ -1,0 +1,26 @@
+.promo {
+    padding-top: 58px;
+    background-color: $main;
+    min-height: 788px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    &__img {
+        position: absolute;
+        height: 844px;
+        width: 550px;
+        right: 0;
+    }
+    &__quote {
+        max-width: 455px;
+        font-size: 60px;
+        line-height: 78px;
+        font-weight: 400;
+        color: #fff;
+    }
+    &__btn {
+        margin-top: 60px;
+    }
+}

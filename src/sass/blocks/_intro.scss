@@ -1,0 +1,13 @@
+.intro {
+    margin-top: 100px;
+    background-color: $main;
+    &__head {
+        display: flex;
+    }
+    &__item:first-child {
+        padding: 80px 0;
+    }
+    &__title {
+        font-weight: 700;
+    }
+}

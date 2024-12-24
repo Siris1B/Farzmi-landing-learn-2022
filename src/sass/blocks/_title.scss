@@ -1,0 +1,28 @@
+.title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: $main;
+    &_fz32 {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    &_fz22 {
+        font-size: 22px;
+    }
+    &_fz26 {
+        font-size: 26px;
+    }
+    &_fz25 {
+        font-size: 25px;
+    }
+    &_lh35 {
+        line-height: 35px;
+    }
+    &_lh42 {
+        line-height: 42px;
+    }
+    &_white {
+        color: #fff;
+    }
+}

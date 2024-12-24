@@ -1,0 +1,44 @@
+.call {
+    margin-top: 110px;
+    background-color: $main;
+    min-height: 375px;
+    padding-bottom: 80px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 55px;
+    }
+    &__item:first-child {
+        width: 57%;
+    }
+    &__item:nth-child(2) {
+        background-color: #23786D;
+        width: 40%;
+        min-height: 98px;
+    }
+    &__phone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 22px;
+    }
+    &__picon {
+        margin-right: 20px;
+    }
+    &__number {
+        span {
+            display: block;
+            color: $second;
+            font-size: 17px;
+            font-weight: 400;
+            font-family: 'Roboto', sans-serif;
+        }
+        a {
+            font-family: 'Roboto', sans-serif;
+            font-size: 17px;
+            font-weight: 400;
+            color: #FFFFFF;
+        }
+    }
+}

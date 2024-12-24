@@ -1,0 +1,52 @@
+.header {
+    background-color: $main;
+    max-height: 100px;
+    &__wrapper {
+        padding: 29px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        margin: 0 20px;
+        font-weight: 400;
+        font-size: 15px;
+        a {
+            color: $second;
+            transition: all .6s;
+            font-family: 'Roboto', sans-serif;
+            &:hover {
+                color: #76cbc1;
+                font-size: 16px;
+            }
+        }
+    }
+    &__phone {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__picon {
+        margin-right: 20px;
+    }
+    &__number {
+        span {
+            display: block;
+            color: $second;
+            font-size: 17px;
+            font-weight: 400;
+            font-family: 'Roboto', sans-serif;
+        }
+        a {
+            font-family: 'Roboto', sans-serif;
+            font-size: 17px;
+            font-weight: 400;
+            color: #FFFFFF;
+        }
+    }
+}
